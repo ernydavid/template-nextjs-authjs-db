@@ -1,6 +1,6 @@
 import { auth } from '@/auth'
 
-export const roles = ['management', 'admin', 'manager', 'employee']
+export const roles = ['admin', 'manager', 'user']
 
 export const currentUser = async () => {
   const session = await auth()

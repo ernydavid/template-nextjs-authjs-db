@@ -1,1 +1,0 @@
-ALTER TABLE "employeeTimeOff" ALTER COLUMN "status" DROP NOT NULL;

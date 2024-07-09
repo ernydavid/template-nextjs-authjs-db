@@ -1,1 +1,0 @@
-ALTER TABLE "employeesContractsTable" ALTER COLUMN "employeeId" SET DATA TYPE uuid;

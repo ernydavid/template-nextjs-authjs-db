@@ -7,8 +7,6 @@ import { ThemeProvider } from '@/components/theme-provider'
 import { SessionProvider } from 'next-auth/react'
 import { auth } from '@/auth'
 import { Toaster } from '@/components/ui/sonner'
-import { Navbar } from '@/components/navbar'
-import { Footer } from '@/components/footer'
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -16,9 +14,10 @@ const fontSans = FontSans({
 })
 
 export const metadata: Metadata = {
-  title: '5999Cargo | Employeer Portal',
-  description: 'The all-in-one employeer portal of 5999Cargo Group©',
+  title: 'NextJs Template with AuthJs and DB',
+  description: 'Template with authJS and Vercel DB',
   icons: {
+    // add favicon here
     icon: [
       {
         media: '(prefers-color-scheme: light)',
@@ -46,7 +45,7 @@ export default async function RootLayout ({
       suppressHydrationWarning
     >
       <body className={cn(
-        'h-full w-full bg-background text-foreground font-sans antialiased overflow-x-hidden',
+        'h-full w-full bg-background font-sans antialiased',
         fontSans.variable
       )}
       >
@@ -55,18 +54,15 @@ export default async function RootLayout ({
         >
           <ThemeProvider
             attribute='class'
-            defaultTheme='light'
+            defaultTheme='system'
             enableSystem
-            disableTransitionOnChange
           >
-            <Navbar />
-            <div className='md:p-6 p-0 pt-20 mx-auto w-full h-full md:pt-20 overflow-y-auto scrollbar-hide'>
+            <div className='w-full h-full'>
               <Toaster />
               {children}
             </div>
           </ThemeProvider>
         </SessionProvider>
-        <Footer />
       </body>
     </html>
   )

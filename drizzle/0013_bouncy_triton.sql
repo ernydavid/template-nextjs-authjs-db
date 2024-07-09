@@ -1,1 +1,0 @@
-ALTER TABLE "contracts" ALTER COLUMN "idEmployee" SET DATA TYPE text;

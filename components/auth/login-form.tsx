@@ -110,7 +110,7 @@ export function LoginForm () {
                         <Input
                           {...field}
                           disabled={isPending}
-                          placeholder='colleague@5999cargo.com'
+                          placeholder='email@email.com'
                           type='email'
                           className='bg-primary border-none text-primary-foreground placeholder:text-primary-foreground/60 rounded-lg autofillbg'
                         />

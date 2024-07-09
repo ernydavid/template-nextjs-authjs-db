@@ -1,1 +1,0 @@
-ALTER TABLE "employeeContracts" DROP COLUMN IF EXISTS "extraSalary";

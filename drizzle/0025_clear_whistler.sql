@@ -1,1 +1,0 @@
-ALTER TABLE "emergency_contacts" ADD COLUMN "created_at" timestamp;

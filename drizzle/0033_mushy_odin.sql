@@ -1,1 +1,0 @@
-ALTER TABLE "contracts" ALTER COLUMN "id" SET DATA TYPE serial;

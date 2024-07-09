@@ -58,7 +58,7 @@ export function NewPasswordForm () {
       backButtonLabel='Go Back to Home'
       backButtonHref='/'
       image='/icon-light.svg'
-      imageAlt='Icon logo of 5999 Cargo'
+      imageAlt='Icon logo of ...'
       imageContain
       imagefirst
     >

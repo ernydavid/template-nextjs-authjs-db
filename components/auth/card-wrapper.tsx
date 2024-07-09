@@ -26,11 +26,7 @@ export const CardWrapper = ({
   return (
     <Card className='w-[600px] flex overflow-hidden shadow-md'>
       <div className='w-[250px] hidden md:flex bg-gradient-to-br from-[#103a6a] to-[#061c35] items-center justify-start'>
-        <img
-          src='/assets/employee.png'
-          alt='employee'
-          className='w-[200px] h-full object-cover object-center'
-        />
+        {/* Image here.. */}
       </div>
       <div className='w-full h-full flex flex-col'>
         <CardHeader className='w-full'>

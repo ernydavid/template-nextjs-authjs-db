@@ -77,7 +77,7 @@ export function UserMenu ({ user }: UserMenuProps) {
             </Link>
           </Button>
         </DropdownMenuItem>
-        {(user.role === 'admin' || user.role === 'management') &&
+        {(user.role === 'admin' || user.role === 'manager') &&
           <>
             <DropdownMenuSeparator />
             <DropdownMenuItem asChild>

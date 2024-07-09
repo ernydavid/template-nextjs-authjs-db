@@ -22,6 +22,7 @@ export const authRoutes = [
   '/auth/login',
   '/auth/error',
   '/auth/reset',
+  '/auth/register',
   '/auth/new-password'
 ]
 
@@ -36,4 +37,4 @@ export const apiAuthPrefix = '/api/auth'
  * The default redirect path after logging in
  * @type {string}
  */
-export const DEFAULT_LOGIN_REDIRECT = '/dashboard'
+export const DEFAULT_LOGIN_REDIRECT = '/settings'

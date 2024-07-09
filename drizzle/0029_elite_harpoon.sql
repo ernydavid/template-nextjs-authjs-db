@@ -1,1 +1,0 @@
-ALTER TABLE "contracts" RENAME COLUMN "hire_date" TO "hireDate";

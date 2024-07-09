@@ -1,1 +1,0 @@
-ALTER TABLE "emergency_contacts" ALTER COLUMN "id_employee" SET DATA TYPE text;

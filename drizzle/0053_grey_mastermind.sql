@@ -1,1 +1,0 @@
-ALTER TABLE "employeeContracts" ADD COLUMN "updatedAt" timestamp;
