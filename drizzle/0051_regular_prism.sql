@@ -1,0 +1,1 @@
+ALTER TABLE "employeeContracts" ALTER COLUMN "id" SET DATA TYPE uuid;

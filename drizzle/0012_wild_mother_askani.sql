@@ -1,0 +1,1 @@
+ALTER TABLE "countries" ALTER COLUMN "country_name" DROP NOT NULL;

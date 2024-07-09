@@ -1,0 +1,1 @@
+ALTER TABLE "departments" RENAME COLUMN "created at" TO "created_at";

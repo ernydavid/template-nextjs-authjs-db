@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "./node_modules/standard/eslintrc.json",
+    "plugin:react/jsx-runtime"
+  ],
+  "rules": {
+    "no-undef": "off",
+    "@next/next/no-img-element": "off",
+    "react/jsx-handler-names": "off"
+  }
+}
